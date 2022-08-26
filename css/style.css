@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+.grid{
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 50vh 50vh;
+
+    background-image: url(../assets/antonio-reynoso-_25iXtaa6oY-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+
+    color: white;
+}
+.item{
+    /* border: 0.1rem solid red; */
+}
+.item-1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    display: flex;
+    flex-direction: column;
+    padding: 0 5rem;
+}
+.line{
+    width: 100%;
+    height: 0.3rem;
+    margin: 5rem 0;
+    background-color: #eee;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.6rem;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    transition: ease-in-out 0.3s;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.logo .b-big{
+    font-weight: bold;
+    font-size: 2.3rem;
+    text-transform: uppercase;
+}
+.logo .b-small{
+    font-size: 1.3rem;
+}
+.contact{
+    text-align: end;
+}
+
+
+.item-2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    padding: 0 3rem 5rem 3rem;
+}
+.down{
+    font-size: 4rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.down img{
+    height: 5rem;
+    border: #eee 1px solid;
+    border-radius: 100px;
+    padding: 0.5rem;
+}
+.hero{
+    margin-left: 6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hero h1{
+    font-size: 10rem;
+    line-height:9rem;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+}
+.primary-btn{
+    color: black;
+    background-color: #eee;
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 1000px;
+    margin-right: 1rem;
+}
+.primary-btn span{
+    margin-right: 10rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.primary-btn i{
+    rotate: 225deg;
+}
+
+.Secondary-btn{
+    color: white;
+    border: 0.2rem solid white;
+   
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 1000px;
+}
+.Secondary-btn span{
+    margin-right: 5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.Secondary-btn i{
+    rotate: 225deg;
+}
+.item-3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    background-color: #eee;
+    color: black;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.7rem;
+}
+.title i{
+    rotate: 225deg;
+}
+.profile{
+    display: flex;
+    align-items: center;
+}
+.profile-pic{
+    height: 5rem;
+    width: 5rem;
+    background-image: url(../assets/stock-photo-1001031701.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+    margin-right: 0.5rem;
+}
+.profile p:first-child{
+    font-size: 1.4rem;
+}
+.profile p:last-child{
+    font-size: 1.2rem;
+    color: rgb(116, 116, 116);
+}
+.review{
+    font-size: 1.2rem;
+}
+.btn-study{
+    color: #eee;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border-radius: 100px;
+
+    background-image: url(../assets/agustin-fernandez-1Pmp9uxK8X8-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.btn-study i{
+    rotate: 225deg;
+}
+.Secondary-btn{
+    color: white;
+    border: 0.2rem solid white;
+   
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border-radius: 1000px;
+}
+.Secondary-btn span{
+    margin-right: 5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.Secondary-btn i{
+    rotate: 225deg;
+}
